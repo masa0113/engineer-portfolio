@@ -10,6 +10,7 @@ const nextConfig = {
   output: 'export',
   images: { unoptimized: true },
   basePath: '/engineer-portfolio',
+  assetPrefix: '/engineer-portfolio/',
   // bunの使用時に必要な設定
   experimental: {
     esmExternals: true
