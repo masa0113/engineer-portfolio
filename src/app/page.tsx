@@ -39,8 +39,8 @@ export default function Home() {
             >
               <Card>
                 <CardHeader>
-                  <CardTitle>{project.title}</CardTitle>
-                  <CardDescription>{project.description}</CardDescription>
+                  <CardTitle className="text-white">{project.title}</CardTitle>
+                  <CardDescription className="text-white">{project.description}</CardDescription>
                 </CardHeader>
               </Card>
             </motion.div>
@@ -61,11 +61,11 @@ export default function Home() {
             >
               <Card>
                 <CardHeader>
-                  <CardTitle>{exp.company}</CardTitle>
-                  <CardDescription>
+                  <CardTitle className="text-white">{exp.company}</CardTitle>
+                  <CardDescription className="text-white">
                     {exp.position} | {exp.period}
                   </CardDescription>
-                  <p className="mt-2">{exp.description}</p>
+                  <p className="text-white mt-2">{exp.description}</p>
                 </CardHeader>
               </Card>
             </motion.div>
