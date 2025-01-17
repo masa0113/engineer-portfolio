@@ -8,9 +8,9 @@ import type { Configuration } from 'webpack';
 
 const nextConfig = {
   output: 'export',
-  images: { unoptimized: true },
-  basePath: '/engineer-portfolio',
-  assetPrefix: '/engineer-portfolio/',
+  images: { unoptimized: true }, // GitHub Pages に合わせた画像最適化設定
+  basePath: '/engineer-portfolio', // GitHub Pages のリポジトリ名
+  assetPrefix: '/engineer-portfolio', // 静的ファイルのパス修正
   // bunの使用時に必要な設定
   experimental: {
     esmExternals: true
