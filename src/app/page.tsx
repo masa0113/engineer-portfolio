@@ -1,4 +1,4 @@
-// src/pages/index.tsx
+"use client"
 import { motion } from 'framer-motion';
 import { Button } from "@/components/ui/button";
 import { Card, CardHeader, CardTitle, CardDescription } from "@/components/ui/card";
