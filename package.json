@@ -7,8 +7,7 @@
     "build": "bun --bun next build",
     "start": "bun --bun next start",
     "lint": "bun --bun next lint",
-    "test": "bun test",
-    "export": "bun --bun next export"
+    "test": "bun test"
   },
   "dependencies": {
     "@hookform/resolvers": "^3.10.0",
