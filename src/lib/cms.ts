@@ -6,22 +6,22 @@ const client = createClient({
 });
 
 export async function getCareerHistory() {
-  const data = await client.get({
+  const data = await client.getList({
     endpoint: 'career',
   });
   return data.contents;
 }
 
 export async function getSkills() {
-  const data = await client.get({
+  const data = await client.getList({
     endpoint: 'skill',
   });
   return data.contents;
 }
 
 export async function getPR() {
-  const data = await client.get({
+  const data = await client.getObject({
     endpoint: 'selfpr',
   });
-  return data.contents;
+  return data;
 }
